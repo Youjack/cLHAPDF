@@ -12,8 +12,6 @@ void rmPDF(cPDF* cpdf);
 double alphasQ2(cPDF* cpdf, double Q2);
 double xfxQ2(cPDF* cpdf, int pid, double x, double Q2);
 
-void rmPDF(cPDF* cpdf);
-
 #ifdef __cplusplus
 }
 #endif
