@@ -4,4 +4,4 @@ A Julia wrapper of the C wrapper is also provided.
 
 This is inspired by [cbpark/lhapdf-wrapper-test](https://github.com/cbpark/lhapdf-wrapper-test).
 
-This is tested on macOS 15 on Apple Silicon with LHAPDF 6.5.4 and Julia 1.10.
+This is tested on macOS 14,15 on Apple Silicon with LHAPDF 6.5.4 and Julia 1.10.

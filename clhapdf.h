@@ -5,8 +5,13 @@
 extern "C" {
 #endif
 
+typedef struct cPDFSet cPDFSet;
+cPDFSet* getPDFSet(const char* setname);
+
+const char* get_entry(cPDFSet* cpdfset, const char* key);
+
 typedef struct cPDF cPDF;
-cPDF* mkPDF(const char* setname);
+cPDF* mkPDF(const char* setname_nmem);
 void rmPDF(cPDF* cpdf);
 
 double alphasQ2(cPDF* cpdf, double Q2);
