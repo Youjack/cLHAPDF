@@ -1,0 +1,7 @@
+.vscode
+JuliaManifest.toml
+
+*.dylib
+*.so
+*.o
+*.a
